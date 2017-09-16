@@ -27,6 +27,7 @@ namespace InputRx
             .Subscribe(delegate
             {
               Debug.Log("Rebinding");
+
               containerSession.Clear();
               var containerBinding = SetupModules(container.GetComponentsInChildren<IInputModule>())
                 .AddTo(containerSession).AddTo(disposable);
