@@ -17,6 +17,7 @@ namespace InputRx
     [Serializable]
     public class EventTypeReactiveProperty : ReactiveProperty<EventType> { }
 
+    // provide some type of help without using the KeyCode enum
     public StringReactiveProperty key = new StringReactiveProperty();
     [InspectorDisplay]
     public EventTypeReactiveProperty eventType = new EventTypeReactiveProperty();
