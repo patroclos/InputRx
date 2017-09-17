@@ -57,6 +57,7 @@
      <Compile Include="Assets\LINQtoGameObject\Scripts\GameObjectExtensions.Traverse.cs" />
      <Compile Include="Assets\Scripts\Engine\BaseInputConstraint.cs" />
      <Compile Include="Assets\Scripts\Engine\BaseInputModule.cs" />
+     <Compile Include="Assets\Scripts\Engine\Constraint\KeyComboConstraint.cs" />
      <Compile Include="Assets\Scripts\Engine\Constraint\KeyConstraint.cs" />
      <Compile Include="Assets\Scripts\Engine\IInputConstraint.cs" />
      <Compile Include="Assets\Scripts\Engine\IInputModule.cs" />
